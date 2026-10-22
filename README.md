@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# TeamVoice
 
-First, run the development server:
+### Your Voice. Your Workplace.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+TeamVoice is a full-stack employee engagement platform designed to help organizations improve workplace communication, recognize outstanding employees, and encourage team participation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The platform provides a centralized space for employee recognition voting, anonymous feedback, workplace polls, announcements, and AI-powered insights.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## The Problem
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Many organizations rely on manual voting processes, management-only recognition decisions, and traditional suggestion boxes.
 
-## Learn More
+These methods can limit employee participation, reduce transparency, and make workplace feedback difficult to organize and analyze.
 
-To learn more about Next.js, take a look at the following resources:
+## Our Solution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+TeamVoice empowers employees to participate in workplace decisions while providing management with tools to understand feedback and recognize employee contributions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Core Features
 
-## Deploy on Vercel
+### Employee of the Month
+- Employee nomination and voting
+- One eligible vote per employee per election
+- Private ballots
+- Scheduled voting periods
+- Recognition history
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Suggestions and Feedback
+- Named or anonymous submissions
+- Feedback categories
+- Anonymous two-way conversations
+- Feedback status tracking
+- Management responses
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Staff Polls
+- Workplace surveys and polls
+- Multiple-choice questions
+- Scheduled participation
+- Poll analytics
+
+### Announcements
+- Workplace announcements
+- Important team updates
+- Employee notifications
+
+### Employee Accounts
+- Secure authentication
+- Employee profiles
+- Job positions and departments
+- Organization membership
+- Role-based access control
+
+### Administration
+- Employee management
+- Election management
+- Feedback moderation
+- Poll management
+- Engagement analytics
+
+### AI Insights (Planned)
+- AI-generated feedback summaries
+- Recurring workplace concern detection
+- Sentiment and topic analysis
+- Monthly engagement reports
+- AI-powered administrative assistance
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | Full-stack application framework |
+| React | User interface |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Styling and responsive design |
+| Supabase | Authentication and backend services (planned) |
+| PostgreSQL | Relational database (planned) |
+| Vercel | Deployment (planned) |
+| GitHub | Version control |
+
+## Development Roadmap
+
+- [x] Initialize Next.js application
+- [x] Build initial homepage
+- [x] Set up GitHub repository
+- [ ] Implement employee authentication
+- [ ] Create employee profiles
+- [ ] Build employee dashboard
+- [ ] Implement recognition voting
+- [ ] Build anonymous feedback system
+- [ ] Implement staff polls
+- [ ] Build administration dashboard
+- [ ] Add workplace announcements
+- [ ] Integrate AI insights
+- [ ] Perform security and accessibility testing
+- [ ] Deploy application
+
+## Security and Privacy
+
+TeamVoice is being designed with privacy and security in mind.
+
+Key objectives include:
+- Protecting employee personal information
+- Preventing duplicate votes
+- Keeping recognition ballots private
+- Supporting genuinely anonymous feedback
+- Restricting administrative access
+- Separating organization data
+- Protecting database credentials
+
+These safeguards must be implemented and tested before any real workplace deployment.
+
+## Current Status
+
+TeamVoice is under active development.
+
+The initial responsive homepage has been completed. Employee authentication and profile management are the next development milestones.
+
+## Author
+
+Developed by Rocky as a personal software engineering project.
+
+GitHub: https://github.com/Rock1-code
+
+## License
+
+No license has been selected yet. All rights reserved.
